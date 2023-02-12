@@ -1,0 +1,21 @@
+:root {
+  --text-color-primary: hsl(0, 0%, 41%, 100%);
+  --text-color-primary-light: hsl(0, 0%, 64%, 100%);
+  --text-color-primary-dark: hsl(0, 0%, 26%, 100%);
+  --text-color-secondary: hsl(0, 0%, 0%, 100%);
+  --background-color-primary: hsl(0, 0%, 100%);  
+}
+  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--text-color-primary);
+  background-color: var( --background-color-primary);
+}
